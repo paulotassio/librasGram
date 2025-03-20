@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A8E8FB"
+    tools:context=".Fase1frase2">
+
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfettiView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView8"
+        android:layout_width="224dp"
+        android:layout_height="252dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/amanha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="LibrasGram"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="Pontuação: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tela8pontuacao"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:text="Tentativas:"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tentativa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tela8pontuacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="12dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tentativa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Tentativas:"
+        app:layout_constraintEnd_toStartOf="@+id/tentativa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tela8bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#FFF"
+        android:text="meu"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/gifImageView8"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tela8bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#FFF"
+        android:text="encontrar"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tela8bt1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tela8bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#FFF"
+        android:text="ontem"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tela8bt2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tela8bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="68dp"
+        android:backgroundTint="#FFF"
+        android:text="cedo"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tela8bt3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tela8bt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFF"
+        android:text="amanhã"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/gifImageView8"
+        app:layout_constraintTop_toBottomOf="@+id/tela8bt1" />
+
+    <Button
+        android:id="@+id/bt7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFF"
+        android:text="hoje"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tela8bt6"
+        app:layout_constraintTop_toBottomOf="@+id/tela8bt3" />
+
+    <Button
+        android:id="@+id/bt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFF"
+        android:text="ir"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/bt7"
+        app:layout_constraintTop_toBottomOf="@+id/tela8bt4" />
+
+    <Button
+        android:id="@+id/tela8bt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FFF"
+        android:text="amigo!"
+        android:textColor="#3700B3"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/tela8bt5"
+        app:layout_constraintTop_toBottomOf="@+id/tela8bt2" />
+
+    <EditText
+        android:id="@+id/campoResposta"
+        android:layout_width="468dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="monte a frase aqui"
+        android:inputType="text"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textColorHint="@color/material_dynamic_neutral30"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/gifImageView8"
+        app:layout_constraintTop_toBottomOf="@+id/tela8bt5" />
+
+    <ImageButton
+        android:id="@+id/tela8ibVoltar"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/back"
+        android:onClick="showDialogVoltar"
+        android:scaleY="-1"
+        app:layout_constraintStart_toEndOf="@+id/tela8ibDica"
+        app:layout_constraintTop_toBottomOf="@+id/campoResposta" />
+
+    <ImageButton
+        android:id="@+id/tela8btNovamente"
+        android:layout_width="87dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/tentar"
+        android:onClick="tentarNovamente"
+        app:layout_constraintStart_toEndOf="@+id/tela8ibVoltar"
+        app:layout_constraintTop_toBottomOf="@+id/campoResposta"
+        />
+
+    <ImageButton
+        android:id="@+id/tela8ibProximo"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/proximodesativado"
+        android:onClick="showDialogProximo"
+        android:scaleY="-1"
+        app:layout_constraintStart_toEndOf="@+id/tela8btNovamente"
+        app:layout_constraintTop_toBottomOf="@+id/campoResposta"
+        />
+
+    <TextView
+        android:id="@+id/tela8fraseCompleta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="251dp"
+        android:text="Frase Completa"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gifImageView8"
+        app:layout_constraintTop_toBottomOf="@+id/campoResposta" />
+
+    <ImageButton
+        android:id="@+id/tela8ibCorrecao"
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/correcao"
+        android:onClick="correcao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/campoResposta"
+        />
+
+    <ImageButton
+        android:id="@+id/tela8ibDica"
+        android:layout_width="145dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:onClick="showDica"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gifImageView8"
+        app:srcCompat="@drawable/dica3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
